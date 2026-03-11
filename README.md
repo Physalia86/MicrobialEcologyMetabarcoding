@@ -48,21 +48,25 @@ __LEARNING OUTCOMES__
 - [X] Presentation - [**Key concept: OTU or ASV**;](https://docs.google.com/presentation/d/1Kh_RCdJ2CuojAJCLeEj7-T3Qav-tncSS/edit?usp=drive_link&ouid=103395187960487769781&rtpof=true&sd=true)
   - Different Sequencing Technologies and different denoising approaches
 - [X] Practical - [Denoising and **DADA2**](16S_ITS_tutorial/readme.md#step2-quality-controlling-sequences-and-building-feature-table-and-feature-data)
+- [X] [Taxonomic assignment](https://docs.google.com/presentation/d/10ExRGzgoCzC_ZKWv1lGKBGesChWdLcq1/edit?usp=drive_link&ouid=103395187960487769781&rtpof=true&sd=true)
 ## Day 3
-- [X] [Experimental Design part 2 ](https://docs.google.com/presentation/d/1jkHVJ7l-lWs-Gi0rbFr74giZv8JhOpneiFmUqnFk1Nk/edit#slide=id.g2b75b176bc2_0_489)
+- [X] [Taxonomy assignment:**classify-sklearn**](16S_ITS_tutorial/readme.md#step3-summarizing-feature-table-and-feature-data)
+- [X] [Fungi and ITS best practices!](https://docs.google.com/presentation/d/14k4cnKy7ZT_b4vvvo2UREiyhZ1HUn5P0/edit?usp=drive_link&ouid=103395187960487769781&rtpof=true&sd=true)
+
 - [X] [Diversity Analysis](https://docs.google.com/presentation/d/1Wjf5QibYwf6lTYIpQTEUVO4HNxc0nYUy/edit#slide=id.g2b75d256dc1_0_564)
 - [X] [Running Alpha and Beta Diversity in QIIME2](16S_ITS_tutorial/readme.md#step6-analyzing-alpha-and-beta-diversities)
-- [X] [Taxonomic assignment](https://docs.google.com/presentation/d/1YdX9hS4BQfj2qfSf79CKtYAHMIXTbI0hIWiemDmmh1s/edit#slide=id.p)
-- [X] [Taxonomy assignment:**classify-sklearn**](16S_ITS_tutorial/readme.md#step3-summarizing-feature-table-and-feature-data)
+
+
 
 
 
 ## Day 4
-- [X] [Fungi and ITS best practices!](https://docs.google.com/presentation/d/14k4cnKy7ZT_b4vvvo2UREiyhZ1HUn5P0/edit?usp=drive_link&ouid=103395187960487769781&rtpof=true&sd=true)
+- [X] [Experimental Design part 2 ](https://docs.google.com/presentation/d/1jkHVJ7l-lWs-Gi0rbFr74giZv8JhOpneiFmUqnFk1Nk/edit#slide=id.g2b75b176bc2_0_489)
+
 - [X] [Lecture  - Multivariate Analysis of Ecological Communities](https://docs.google.com/presentation/d/1SEXLnsAk71ghWJFBjvnSL9-JIU5kHyYi/edit?usp=sharing&ouid=113644278417838041864&rtpof=true&sd=true)  
   - [X] Traits of Alpha and Beta Diversity (richness, evenness, dispersion)  
   - [X] Multivariate Tests for differences in microbial community composition  
-- [X] [Lab  - Multivariate Statistics](https://glcdn.githack.com/bfosso/physalia_metabarcoding_oct2021/raw/main/Day4_5_material/Physalia-Metabarcoding-Course-Oct21.html)  
+- [X] [Lab  - Multivariate Statistics](https://drive.google.com/file/d/1T5eGn6qxykXKpbfsEHekV8wB4LBPF-Qf/view?usp=drive_link)  
   - [X] Data import & preparation (normalisations, transformations, metadata)  
   - [X] Multivariate tests for differences in community composition (PERMANOVA, PERMDISP)    
 - [X] [Lecture - Differential Abundance Analysis of Microbial Communities](https://docs.google.com/presentation/d/1Z2F2_goIAuuKXQQ7ocClOgq8x6tbpClW/edit?usp=sharing&ouid=113644278417838041864&rtpof=true&sd=true) 
@@ -71,10 +75,8 @@ __LEARNING OUTCOMES__
 ## Day 5
 
 - [X] :arrow_right: _It's Case studies Time!!!_
-  - [X] [Human microbiome data](Case_Studies/human_cancer/readme.md)
-  - [X] [Zoological(Bees bees bees!)](Case_Studies/Bee_microbiome/readme.md)
   - [X] [Water-mosquito](Case_Studies/water_mosquito/readme.md)
-- [X] [Record your Case Study findings](https://drive.google.com/drive/folders/1BAdmWaNh3kvZMjGR-efPyd4ZVv8bUkon?usp=drive_link)
+- [X] [Record your Case Study findings](https://drive.google.com/drive/u/0/folders/1LvRyxTsLQSDU8W9g0RQQUYDGSDly6xfs)
 - [X] Beer Time :beers: :beers: :beers: 
 - [X] [Some additional processing Tips :volcano: ](DataImport_and_Tax_management/readme.md)
   - [X] Alternative loading methods in Qiime

@@ -14,7 +14,7 @@ There are always four lines per read:
 
 ## Steps
 
-### 1. Create Analysis Directory
+### 1. Create "Analysis" Directory
 
 First lets create a directory where the analysis will be conducted. We can use cd to ensure we're in the home folder
 
@@ -29,7 +29,7 @@ The -p flag ensures that the command does not return an error if the directory a
 Next, we'll copy a FASTQ file from the shared directory to the folder you just created.
 
 ```
-cp ~/Shared/raw_data ~/Analysis/
+cp -r ~/Shared/AttacamaAllOutputs ~/Analysis/
 ```
 Here we specify ```~/``` before the folder name to be explicit that it's in the home folder, although not technically required at this moment.
 
@@ -45,14 +45,12 @@ Enter the folder, and check that the file is there, and how large it is
   
 </details>
 
-
-### 3. Extract all .gz Files 
-
-As our .gz file contains only one compressed file, we use (To run this command, you must ensure that you are in the file's directory! **IF not you have to specify the path**):
+### 3. Activate the conda environment
 
 ```
-gunzip *.gz
-```
+conda activate /home/ubuntu/miniconda3/envs/multiqc
+``
+
 
 ### 4. Run FastQC on a single file
 Now let's run FastQC on the FASTQ file to assess its quality. FastQC provides a comprehensive overview of data quality, including basic statistics, per-base quality scores, sequence content, and GC content.
@@ -87,7 +85,7 @@ fastqc *.fastq
 
 ### 7. Run MultiQC on a Directory
 
-Stay into the directory containing the raw fastq  files, then run:
+Stay into the directory containing the fastqc output files and then run:
 
 ```
 multiqc .
