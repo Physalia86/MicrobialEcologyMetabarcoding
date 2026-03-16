@@ -29,7 +29,7 @@ The -p flag ensures that the command does not return an error if the directory a
 Next, we'll copy a FASTQ file from the shared directory to the folder you just created.
 
 ```
-cp -r ~/Shared/AttacamaAllOutputs ~/Analysis/
+cp -r ~/Shared/fastqc_file ~/Analysis/
 ```
 Here we specify ```~/``` before the folder name to be explicit that it's in the home folder, although not technically required at this moment.
 
@@ -72,7 +72,7 @@ You can also use the -o option specifying the output directory for the results t
 Use ```ls``` to check that some output has been generated!
 
 ### 5. View the file
-Use filezilla (or a different transfer programme) to download the html you just made, and open it on your local computer to inspect the outputs.
+Use Rstudio (or a different transfer programme) to download the html you just made, and open it on your local computer to inspect the outputs.
 
 ### 6. What to do when there are many files?
 
