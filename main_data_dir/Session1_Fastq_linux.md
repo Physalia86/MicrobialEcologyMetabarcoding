@@ -49,7 +49,7 @@ Enter the folder, and check that the file is there, and how large it is
 ### 3. Activate the conda environment
 
 ```
-conda activate /home/ubuntu/miniconda3/envs/multiqc
+conda activate /home/ubuntu/miniconda3/envs/multiqc_env
 ```
 
 
@@ -59,7 +59,7 @@ Now let's run FastQC on the FASTQ file to assess its quality. FastQC provides a 
 First of all, we need to activate the conda environment multiqc
 
 ```
-conda activate /home/ubuntu/miniconda3/envs/multiqc
+conda activate /home/ubuntu/miniconda3/envs/multiqc_env
 ```
 
 The command is pretty simple (we just pick up the first one)!
