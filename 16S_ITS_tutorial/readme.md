@@ -94,7 +94,7 @@ As we discussed during the introduction to UNIX-based environment, we take advan
 Everytime we start a new session **(!!EVERY TIME!!)**, we need to activate the virtual environment containing our QIIME2 installation.  
 :walking:  
 ```
-conda activate /opt/shared_qiime2
+conda activate qiime2-amplicon-2026.1
 ```
 
 ### Pipeline Overview
