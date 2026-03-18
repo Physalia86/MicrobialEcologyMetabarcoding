@@ -259,7 +259,7 @@ qiime2025
     --m-metadata-file sample-metadata.tsv \
     --o-feature-frequencies feature-frequencies.qza \
     --o-sample-frequencies sample-frequencies.qza \
-    --o-summary visual table_16S.qzv
+    --o-summary table_16S.qzv
 ```
 
 ```
