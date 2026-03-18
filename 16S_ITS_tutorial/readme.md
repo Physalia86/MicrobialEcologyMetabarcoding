@@ -249,8 +249,8 @@ Lets generate summaries for those, so that we can better understand what data th
 ```
 qiime feature-table summarize \
   --i-table table_16S.qza \
-  --m-sample-metadata-file sample-metadata.tsv \
-  --o-visualization table_16S.qzv
+  --m-metadata-file sample-metadata.tsv \
+  --o-summary table_16S.qzv
 ```
 
 ```
