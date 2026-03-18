@@ -256,6 +256,7 @@ qiime feature-table summarize \
 qiime2025
   qiime feature-table summarize \
     --i-table table_16S.qza \
+    --m-metadata-file sample-metadata.tsv \
     --o-feature-frequencies feature-frequencies.qza \
     --o-sample-frequencies sample-frequencies.qza \
     --o-summary visual table_16S.qzv
