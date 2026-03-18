@@ -247,10 +247,18 @@ You have produced two artifacts containing the feature table and corresponding f
 Lets generate summaries for those, so that we can better understand what data they contain.
 :walking:
 ```
+qiime2024
 qiime feature-table summarize \
   --i-table table_16S.qza \
   --m-metadata-file sample-metadata.tsv \
   --o-summary table_16S.qzv
+
+qiime2025
+  qiime feature-table summarize \
+    --i-table table_16S.qza \
+    --o-feature-frequencies feature-frequencies.qza \
+    --o-sample-frequencies sample-frequencies.qza \
+    --o-summary visual table_16S.qzv
 ```
 
 ```
